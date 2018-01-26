@@ -1,0 +1,17 @@
+cd [ścieżka] -chodzi po katalogach
+git init -inicjuje repozytorium w aktualnym katalogu
+git remote add <nazwa> <ścieżka> -tworzenie zdalnego repozytorium
+git remote <nazwa> przełączenie się do zdalnego repozytorium
+git config --global user.name 'Hubert Kowalski'
+git config --global user.email 'h_kowalski@op.pl'
+ssh-keygen -generowanie klucza SSH
+git clone /c/GIT_l -kopiuje pliki z repozytorium
+git status --sprawdzanie co możnz dalej zrobić
+git add . -monitorowanie plików
+git commit -m "add cute octocat story" -commit z komentarzem
+git log
+git help <polecenie>
+git branch <nazwa> -tworzenie nowego brancha
+git checkout <nazwa> -przełązanie się na brancha
+git checkout -b <nazwa> -jednoczesnie branch i checkout
+git fetch <nazwa repozytorium> -ciągnięcie z repozytorium
