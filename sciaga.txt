@@ -16,6 +16,7 @@ git checkout <nazwa> -przełązanie się na brancha
 git checkout -b <nazwa> -jednoczesnie branch i checkout
 git fetch <nazwa repozytorium> -ciągnięcie z repozytorium
 git log --pretty=format:"%h %s" --graph -drzewko branchy
+git log --oneline --graph --all -drzewko branchy
 
 
 echo "# origin" >> README.md
