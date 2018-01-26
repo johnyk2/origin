@@ -15,3 +15,10 @@ git branch <nazwa> -tworzenie nowego brancha
 git checkout <nazwa> -przełązanie się na brancha
 git checkout -b <nazwa> -jednoczesnie branch i checkout
 git fetch <nazwa repozytorium> -ciągnięcie z repozytorium
+
+echo "# origin" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/johnyk2/origin.git
+git push -u origin master
